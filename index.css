@@ -1,0 +1,116 @@
+ .u-section-1 {
+  min-height: 752px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 1339px;
+  height: 755px;
+  margin: -166px calc(((100% - 1140px) / 2)  + -105px) 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  animation-timing-function: ease-in-out;
+  margin: -305px calc(((100% - 1140px) / 2)  + 69px) 0 auto;
+  padding: 0;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 12em;
+}
+
+.u-section-1 .u-btn-2 {
+  margin: -602px auto 60px calc(((100% - 1140px) / 2)  + -47px);
+  padding: 0;
+}
+
+.u-section-1 .u-icon-2 {
+  font-size: 12em;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 527px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 940px;
+    height: 530px;
+    margin-top: -165px;
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -80px;
+    margin-right: calc(((100% - 940px) / 2));
+    --animation-custom_in-translate_x: 50px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 0.3;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 940px) / 2));
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 403px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 406px;
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 44px;
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 302px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 305px;
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 189px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 192px;
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 340px) / 2));
+  }
+}
